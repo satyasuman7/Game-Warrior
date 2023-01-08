@@ -1,0 +1,358 @@
+/*************************************************** NAVBAR SECTION STARTS ***************************************************/
+
+.user-panel {
+	float:right;
+}
+
+/*************************************************** NAVBAR SECTION ENDS ***************************************************/
+
+/********************************************** LATEST NEWS SECTION STARTS *************************************************/
+.latest-section{
+	color:white;
+	padding: 24px 0;
+	margin:-24px 0;
+}
+	.row1{
+		width:100.8%;
+		
+	}
+	.In-title{
+		height: 100%;
+		text-align: right;
+		font-size: 18px;
+	  font-weight: 500;
+		background: #ffb320;
+		padding:24px 24px;
+	}
+	.news-ticket{
+		background-color:black;
+	}
+	.news-ticket .headline{
+	  padding:24px 24px;
+	}
+/********************************************** LATEST NEWS SECTION ENDS *************************************************/
+
+/*********************************************** RECENT GAMES SECTION STARTS *********************************************/
+	.recent-games{
+		background-color: #eef2f6;
+		border: 1px solid #d6dee7;
+		background-image:url(../img/recent-game-bg.png);
+		background-repeat:no-repeat;
+		background-size: 100% 1000px;
+	}
+	.recent-games-1{
+		margin-top:70px;
+		margin-bottom:70px;
+		
+	}
+	.section-title{
+		text-align:center;
+	}		
+	.recent-game-item{
+		border: 1px solid #d6dee7;
+		background-color:white;
+	}
+		.recent-game-item img{
+			padding: 25px 28px;
+		}
+	
+	.rgi-content p{
+		color:gray;
+		padding: 34px 22px 20px;
+		position: relative;
+	}
+			
+	.comment{
+		color:gray;
+		text-decoration:none;
+		font-size:12px;
+	}
+	
+	.download-button{
+		padding-bottom:14px;
+	}
+/*********************************************** RECENT GAMES SECTION ENDS *********************************************/
+
+/****************************************** TOURNAMENT GAMES SECTION STARTS ********************************************/
+.tournaments-section{
+	background-image:url(../img/p.png);
+	background-repeat:repeat;
+	height:auto;
+	padding-top:70px;
+	padding-bottom:70px;
+}
+
+	.tournaments-section h2{
+		text-align:center;
+		color:white;
+		text-transform: uppercase;
+	}
+	
+.ti-notic{
+	display: inline-block;
+	padding: 8px 21px;
+	font-size: 12px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+	background: #ffb320;
+}
+.ti-content{
+	padding: 38px 24px;
+	overflow: hidden;
+}
+	.ti-content img{
+		width: 168px;
+		height: 178px;
+		float: left;
+	}
+	
+.ti-text{
+	padding-left: 195px;
+}
+	.ti-text h4{
+		color: #ffb320;
+		margin-bottom: 20px;
+	}
+	.ti-text ul{
+		list-style: none;
+		margin-bottom: 20px;
+	}
+		.ti-text ul li{
+			color: #fff;
+			font-size: 12px;
+			margin-bottom: 8px;
+		}
+		.ti-text ul li span{
+			color: gray;
+		}
+	.ti-text p{
+		font-size: 12px;
+		color:gray;
+	}
+		.ti-text p span{
+			font-weight: 500;
+			color: #ffb320;
+		}
+/****************************************** TOURNAMENT GAMES SECTION ENDS ********************************************/
+
+/*************************************************	FOOTER SECTION STARTS	***********************************************/
+
+	.footer-newsletter{
+		padding: 50px 0;
+		background-color: black;
+		border-top: 1px solid #ffb320;
+		overflow: hidden;
+		color:white;
+		font-size: 14px;
+	}
+		.footer-newsletter h4{
+			font-size: 24px;
+			margin: 0 0 20px 0;
+			padding: 0;
+			line-height: 1;
+			font-weight: 600;
+			color: #ffb320;
+		}
+		.footer-newsletter form{
+			margin-top: 30px;
+			padding: 6px 10px;
+			position: relative;
+			border-radius: 50px;
+		}
+			.footer-newsletter form input{
+				height:37px;
+				position:relative;
+				top:2px;
+			}
+			
+.footer-section {
+	padding: 18px 0 16px;
+	overflow: hidden;
+	background: #252525;
+}
+
+.footer-menu {
+	list-style: none;
+	float: right;
+	text-decoration:none;
+}
+	.footer-menu li {
+		display: inline;
+	}
+		.footer-menu li a {
+			display: inline-block;
+			font-size: 14px;
+			font-weight: 500;
+			color: #aeaeae;
+			margin-left: 30px;
+		}
+/*************************************************	FOOTER SECTION ENDS	***********************************************/
+
+/*------------------
+  Other Pages
+--------------------
+====================*/
+
+/****************************************** ABOUT-US SECTION STARTS ************************************************/
+.Container1{
+	background-image:url(../img/p.png);
+	height:100%;
+}
+	.information{
+		color:white;
+		text-align:center;
+	}
+		.information h1{
+			text-decoration:underline;
+			font-size:50px;
+			color:#ffb320;
+		}
+	.section1, .section2{
+		padding:45px;
+	}
+
+/******************************************** ABOUT-US SECTION ENDS ************************************************/
+
+/******************************************** CONTACT-US SECTION STARTS *******************************************/
+.Container2{
+	text-align:center;
+	background-image:url(../img/p.png);
+	color:white;
+	height:100%;
+}
+	.Container2 h1{
+		text-decoration:underline;
+		font-size:50px;
+		color:#ffb320;
+	}
+
+	.address, .email, .phone{
+		margin-bottom:4px;
+		color:black;
+		background-color:#ffb320;
+		padding:15px;
+		position:relative;
+		left:75px
+	}
+	.Form1{
+		padding:30px;
+	}
+/******************************************** CONTACT-US SECTION ENDS *******************************************/
+
+/********************************************** LOGIN SECTION STARTS ********************************************/
+.Form2{
+	background-image:url(../img/p.png);
+	text-align:center;
+	padding:70px;
+}
+	.Form2 h1{
+		color:#ffb320;
+		font-size:60px;
+		text-decoration:underline;
+	}
+ 
+ #idLogin{
+	 color:#ffb320;
+	 font-size:24px;
+	 position:relative;
+	 left:170px;
+ }
+
+#button{
+	font-size:19px;
+	font-weight:600;
+	position:relative;
+	right:75px;
+}
+
+.forgot-pass{
+	color:white;
+	position:relative;
+	right:21%;
+	cursor:pointer;
+}
+	.forgot-pass:hover{
+		text-decoration:underline;
+	}
+
+.signup_link{
+	color:white;
+	position:relative;
+	right:20%;
+}
+	.signup_link a{
+	 color:#2691d9;
+	 text-decoration:none;
+  }
+	.signup_link a:hover{
+	 text-decoration:underline;
+  }
+/********************************************** LOGIN SECTION ENDS ********************************************/
+
+/*********************************************GAMES REVIEW SECTION STARTS*******************************************/
+.page-info-section{
+	background-image:url(../img/page-top-bg/3.jpg);
+	color:white;
+	height:70%;
+	width:100%;
+}
+ .page-content{
+	 margin-left:7%;
+	 margin-top:20%;
+ }
+  .page-content h2{
+		font-size:60px;
+		font-weight:bold;
+	}
+	.page-content p{
+		font-size:18px;
+	}
+
+.review-page{
+	margin-top:50px;
+}
+ .review-page .review-item {
+	 margin-bottom: 63px;
+ }
+
+.text-center{
+	margin-bottom:50px;
+}
+
+.review-text{
+	margin-top:20px;
+	text-align:center;
+}
+
+ .review-cover-1{
+	 background-image:url(../img/review/5.jpg);
+	 background-repeat:no-repeat;
+	 height:310px;
+ }
+ .review-cover-2{
+	 background-image:url(../img/review/6.jpg);
+	 background-repeat:no-repeat;
+	 height:310px;
+ }
+ .review-cover-3{
+	 background-image:url(../img/review/7.jpg);
+	 background-repeat:no-repeat;
+	 height:310px;
+ }
+ .review-cover-4{
+	 background-image:url(../img/review/8.jpg);
+	 background-repeat:no-repeat;
+	 height:310px;
+ }
+ .review-cover-5{
+	 background-image:url(../img/review/9.jpg);
+	 background-repeat:no-repeat;
+	 height:310px;
+ }
+ .review-cover-6{
+	 background-image:url(../img/review/10.webp);
+	 background-repeat:no-repeat;
+	 height:310px;
+ }
+/*********************************************GAMES REVIEW SECTION ENDS*******************************************/
